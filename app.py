@@ -7,8 +7,8 @@ st.set_page_config(page_title="Control de Stock", layout="centered")
 def cargar_datos(archivo):
     return pd.read_excel(archivo, sheet_name=None)
 
-file_sin_venta = "Articulos sin venta en 30 dias con Stock GDU_2.xlsx"
-file_con_venta = "Articulos con venta en 30 dias sin Stock GDU.xlsx"
+file_sin_venta = "Plano - 01-09 - Articulos sin venta en 30 dias con Stock GDU.xlsx"
+file_con_venta = "Plano - 01-09 - Articulos con venta en 30 dias sin Stock GDU - copia.xlsx"
 
 try:
     dict_sin_venta = cargar_datos(file_sin_venta)
